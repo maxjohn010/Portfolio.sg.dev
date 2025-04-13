@@ -1,0 +1,35 @@
+/* Add any custom styles not covered by Tailwind */
+body {
+    scroll-behavior: smooth;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header{
+	z-index: 9999;
+	background-attachment: fixed;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	gap:350px;
+}
+nav{
+    
+}
+
+@media (max-width:768px) {
+	header{
+		gap:20px;
+	}
+}
+/*
+header{
+	position: fixed;
+	justify-content: space-between;
+	align-items: center;
+}*/
